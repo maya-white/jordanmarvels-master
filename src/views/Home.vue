@@ -35,6 +35,18 @@
         </b-carousel-slide>
       </b-carousel>
     </div>
+    <div id="slide_title">
+      <p>Book your authentic trip,</p>
+      <p>get the unique experience</p>
+    </div>
+    <div id="slide_img">
+      <b-img src="../assets/slide_img.png" fluid alt="slide img"></b-img>
+    </div>
+    <div id="slide_img_title">
+      <p class="mpp">MOST POPULAR</p>
+      <p class="alkp">Al- Khaznoh, Petra</p>
+      <p class="disc">DISCOVER DESTINATION ></p>
+    </div>
     <banner></banner>
     <section>
       <b-container class="pt-4">
@@ -78,3 +90,44 @@ export default {
   }
 };
 </script>
+<style lang="scss">
+#slide_title {
+  position: absolute;
+  left: 150px;
+  top: 220px;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 87px;
+
+  margin-top: -30px;
+  color: #ffffff;
+}
+#slide_img {
+  position: absolute;
+  left: 900px;
+  top: 420px;
+}
+#slide_img_title {
+  position: absolute;
+  left: 1000px;
+  top: 420px;
+  text-align: left;
+
+  color: #ffffff;
+
+  .mpp {
+    font-size: 12px;
+  }
+
+  .alkp {
+    font-size: 17px;
+  }
+
+  .disc {
+    font-size: 10px;
+  }
+}
+</style>
